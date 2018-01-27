@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/bkground"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/sView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="@string/nameHint"
+            android:inputType="textCapSentences"
+            android:id="@+id/nameField"
+            android:layout_marginTop="@dimen/margin"
+            android:textColorHint="@color/textColor"
+            android:padding="@dimen/padding"
+            android:textColor="@color/textColor"/>
+
+    <include
+        layout="@layout/q1">
+    </include>
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q1VText"/>
+
+        <include
+            layout="@layout/q2"/>
+
+
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q2VText"/>
+
+ <include
+     layout="@layout/q3"/>
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q3VText"/>
+
+        <include
+            layout="@layout/q4"/>
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q4VText"/>
+
+        <include
+            layout="@layout/q5"/>
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q5VText"/>
+
+        <include
+            layout="@layout/q6"/>
+
+        <TextView
+        style="@style/validateText"
+        android:id="@+id/q6VText"/>
+
+        <include
+            layout="@layout/q7"/>
+
+        <TextView
+            style="@style/validateText"
+            android:id="@+id/q7VText"/>
+
+        <Button
+            android:id="@+id/validateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="calculateScore"
+
+            android:text="@string/validateButton" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

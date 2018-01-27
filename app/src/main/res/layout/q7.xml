@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/blockStyle">
+
+
+        <TextView
+            android:id="@+id/Q"
+            style="@style/questionTextViewStyle"
+            android:text="@string/Q7" />
+
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/ImageStyle"
+
+            android:src="@drawable/rusalka" />
+
+
+        <RadioGroup
+            style="@style/radioGroup"
+
+            >
+
+
+
+            <RadioButton
+                style="@style/radioStyle"
+                android:text="@string/Q7A1"
+                android:id="@+id/b1Q1"/>
+
+            <RadioButton
+                style="@style/radioStyle"
+                android:text="@string/Q7A3"
+                android:id="@+id/answer7"/>
+
+
+
+            <RadioButton
+                style="@style/radioStyle"
+                android:text="@string/Q7A2"
+                android:id="@+id/b2Q2"/>
+
+            <RadioButton
+                style="@style/radioStyle"
+                android:text="@string/Q7A4"
+                android:id="@+id/b3Q3"/>
+
+
+        </RadioGroup>
+
+
+
+
+    </RelativeLayout>
+
+
+

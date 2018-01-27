@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b53f4b</color>
+    <color name="colorPrimaryDark">#9f3032</color>
+    <color name="colorAccent">#4086ff</color>
+    <color name="rightAnswer">@android:color/holo_green_light</color>
+    <color name="wrongAnswer">@android:color/holo_red_light</color>
+    <color name="textColor">@android:color/white</color>
+</resources>

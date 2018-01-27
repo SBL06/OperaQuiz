@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:color">@color/textColor</item>
+    </style>
+
+    <!-- style used for a question block (including question text, image and answers) -->
+
+    <style name="blockStyle">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding</item>
+
+    </style>
+
+
+    <!-- Style for the text of the question -->
+
+    <style name="questionTextViewStyle">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+
+    </style>
+
+    <!--Style used for the images -->
+
+
+    <style name="ImageStyle">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:contentDescription">@string/imageContentDescription</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">@dimen/imagesWidth</item>
+        <item name="android:layout_height">@dimen/imagesHeight</item>
+        <item name="android:layout_below">@id/Q</item>
+    </style>
+
+    <!-- Following styles are used for radio buttons part of a radiogroup -->
+
+    <!-- Style used for the layout containing 2 radio buttons-->
+
+    <style name="radioGroup">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_below">@id/img</item>
+    </style>
+
+
+    <!-- Style used for the top left button -->
+    <style name="radioStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:colorActivatedHighlight">@color/colorAccent</item>
+        <item name="android:buttonTint">@color/textColor</item>
+        <item name="android:textSize">@dimen/answerSize</item>
+    </style>
+
+
+    <!-- Style used for the answer using a EditText -->
+
+    <style name="textAnswer">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_below">@id/img</item>
+        <item name="android:hint">@string/answerHint</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/textColor</item>
+    </style>
+
+
+    <!--Style used for the answer using checkboxes -->
+
+    <style name="checkBoxColumn">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/img</item>
+    </style>
+
+    <style name="checkBoxLine">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="checkAnswer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+<item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:buttonTint">@color/textColor</item>
+        <item name="android:textSize">@dimen/answerSize</item>
+
+    </style>
+
+
+    <!-- Style used for text shown after quiz-->
+
+
+    <style name="validateText">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+</resources>

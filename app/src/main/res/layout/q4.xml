@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/blockStyle">
+
+
+        <TextView
+            android:id="@+id/Q"
+            style="@style/questionTextViewStyle"
+            android:text="@string/Q4" />
+
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/ImageStyle"
+            android:src="@drawable/play"
+            android:onClick="playExtract"
+           />
+
+
+        <EditText
+            style="@style/textAnswer"
+            android:id="@+id/answer4"
+            />
+
+
+    </RelativeLayout>
+
+

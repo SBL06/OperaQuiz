@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">OperaQuiz</string>
+
+    <!-- Misc strings -->
+    <string name="nameHint">Please enter your name</string>
+
+    <!-- Questions texts strings-->
+    <string name="Q1">Which of these operas is the oldest one ? </string>
+    <string name="Q2">Name this composer </string>
+    <string name="Q3">Which of these operas have been composed by Mozart?  </string>
+    <string name="Q4">Listen to this extract and name the Opera AND the composer</string>
+    <string name="Q5">True or false ? The Barber of Seville has been composed before its sequel \: the Marriage of Figaro ?</string>
+    <string name="Q6">Look at the picture below and name the Opera</string>
+    <string name="Q7">The only Opera of Dvorak is inspired by the \"Little Mermaid\" tale, can you name it ?</string>
+
+    <!-- Q1 answers strings-->
+
+    <string name="Q1A1">"Elena"</string>
+    <string name="Q1A2">"Rinaldo"</string>
+    <string name="Q1A3">"L'Orfeo"</string>
+    <string name="Q1A4">"The Messiah"</string>
+
+    <!--Q2 answers strings -->
+    <string name="handel">"HANDEL"</string>
+    <string name="haendel">"HAENDEL"</string>
+
+    <!-- Q3 answers strings -->
+
+    <string name="Q3A1">"La Finta Giardiniera"</string>
+    <string name="Q3A2">"Mithridate"</string>
+    <string name="Q3A3">"Armida"</string>
+    <string name="Q3A4">"Alceste"</string>
+
+    <!-- Q4 answers strings -->
+    <string name="norma">"NORMA"</string>
+    <string name="bellini">"BELLINI"</string>
+
+    <!-- Q5 answers strings -->
+    <string name="trueAnswer">"True"</string>
+    <string name="falseAnswer">"False</string>
+
+    <!-- Q6 answers strings -->
+    <string name="carmen">"CARMEN"</string>
+
+    <!--Q7 answers strings -->
+    <string name="Q7A1">"La Cenerentola"</string>
+    <string name="Q7A2">"La Khovantchnina"</string>
+    <string name="Q7A3">"Rusalka"</string>
+    <string name="Q7A4">"Příhody lišky Bystroušky"</string>
+
+
+    <!-- After quiz strings-->
+    <string name="right">"Right!"</string>
+    <string name="wrongQ1">"Wrong ! L'Orfeo was composed by Claudio Monteverdi in 1607"</string>
+    <string name="wrongQ2">"Wrong ! It is George Friedriech Haendel who composed many operas like Alcina or Rinaldo"</string>
+    <string name="wrongQ3">"Wrong ! La Finta Giardiniera and Mithridate are 2 operas composed by Mozart when he was very young. Armide has been composed by J. Haydn, and Alceste is a famous opera composed by C.W. Gluck"</string>
+    <string name="wrongQ4">"Wrong ! This famous song is named \"Casta Diva\" and is from the opera \"Norma\" composed by Bellini"</string>
+    <string name="wrongQ5">"Wrong ! Even if \"The marriage of Figaro\" is the sequel of \"The Barber of Seville\", it has been composed by Mozart 100 years before !"</string>
+    <string name="wrongQ6">"Wrong ! This image is from \"Carmen\", a famous opera composed by George Bizet"</string>
+    <string name="wrongQ7">"Wrong !In this opera, the little mermaid is called \"Rusalka\"" </string>
+
+
+
+    <!-- Others -->
+    <string name="imageContentDescription">"Image describing question"</string>
+    <string name="answerHint">"Please enter your answer here</string>
+    <string name="validateButton">"Check your score"</string>
+</resources>

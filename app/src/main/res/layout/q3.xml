@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/blockStyle">
+
+
+    <TextView
+        android:id="@+id/Q"
+        style="@style/questionTextViewStyle"
+        android:text="@string/Q3" />
+
+
+    <ImageView
+        android:id="@+id/img"
+        style="@style/ImageStyle"
+        android:src="@drawable/mozart" />
+
+    <LinearLayout style="@style/checkBoxColumn">
+
+        <LinearLayout style="@style/checkBoxLine">
+
+            <CheckBox
+                android:id="@+id/answer3e1"
+                style="@style/checkAnswer"
+                android:text="@string/Q3A1" />
+
+            <CheckBox
+                android:id="@+id/answer3e2"
+                style="@style/checkAnswer"
+                android:text="@string/Q3A2" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/checkBoxLine">
+
+            <CheckBox
+                android:id="@+id/answer3f1"
+                style="@style/checkAnswer"
+                android:text="@string/Q3A3" />
+
+            <CheckBox
+                android:id="@+id/answer3f2"
+                style="@style/checkAnswer"
+                android:text="@string/Q3A4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
